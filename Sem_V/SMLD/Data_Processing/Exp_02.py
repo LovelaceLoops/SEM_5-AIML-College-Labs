@@ -2,8 +2,8 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler,LabelEncoder
 
 data = pd.read_csv("test.csv")
-# print(data)
-# print(data.columns)
+print(data)
+print(data.columns)
 
 #Find the Total missing values in the Age column
 print(data["Age"].isnull().sum())
